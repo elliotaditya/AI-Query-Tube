@@ -73,6 +73,7 @@ Provide a Gradio-based UI to perform semantic search interactively.
 Not all YouTube videos expose transcripts via the API.
 Videos without accessible transcripts are filtered out before embedding generation.
 The system architecture is scalable and can handle larger datasets when transcripts are available.
+
 ---
 
 ▶️ How to Run the Project
