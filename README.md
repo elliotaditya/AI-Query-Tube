@@ -1,11 +1,14 @@
 📖 Project Overview
+---
 
 AI QueryTube is an AI-based semantic search system for YouTube videos.
 Unlike traditional keyword search, this project allows users to search videos based on meaning using transformer-based embeddings.
 
 The system extracts video data from a YouTube channel, converts video transcripts into embeddings, and retrieves the most relevant videos for a user query using cosine similarity.
+---
 
 🎯 Project Objectives
+---
 
 Extract video metadata from a YouTube channel using YouTube Data API
 
@@ -16,8 +19,10 @@ Generate semantic embeddings using a transformer model
 Implement semantic search based on similarity scoring
 
 Build an interactive UI for searching videos
+---
 
 🧠 Technologies Used
+---
 
 Python
 
@@ -32,8 +37,10 @@ NumPy
 Scikit-learn
 
 Gradio
+---
 
 🏗️ Project Architecture
+---
 
 Video Collection
 
@@ -58,14 +65,18 @@ Compare user query embeddings with video embeddings using cosine similarity.
 User Interface
 
 Provide a Gradio-based UI to perform semantic search interactively.
+---
 
 ⚠️ Important Note
+---
 
 Not all YouTube videos expose transcripts via the API.
 Videos without accessible transcripts are filtered out before embedding generation.
 The system architecture is scalable and can handle larger datasets when transcripts are available.
+---
 
 ▶️ How to Run the Project
+---
 
 Open the notebook in Google Colab or Jupyter Notebook
 
@@ -76,14 +87,17 @@ Run cells step by step
 Launch the Gradio interface
 
 Enter a query to search videos semantically
+---
 
 📊 Example Query
 Explain arrays in JavaScript
 
 
 The system returns the most relevant videos ranked by semantic similarity.
+---
 
 ✅ Project Status
+---
 
 Video extraction ✔️
 
@@ -94,8 +108,10 @@ Embedding generation ✔️
 Semantic search ✔️
 
 Interactive UI ✔️
+---
 
 👤 Author
+---
 
 Aditya Vishwakarma
 Intern – Infosys Springboard
